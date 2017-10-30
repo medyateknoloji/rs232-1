@@ -7,8 +7,8 @@ echo "cmdline.txt olusturuldu"
 sudo sh -c "echo 'consoleblank=1 logo.nologo dwc_otg.lpm_enable=0 console=tty1 root=PARTUUID=84fa8189-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait  quiet   plymouth.ignore-serial-consoles loglevel=1 quiet' >> /boot/cmdline.txt"
 echo "pyserial kutuphanesi kuruluyor..."
 sudo python -m pip install pyserial
-cp /home/pi/piSignagePro/eRS232/TVon.py /home/pi/TVon.py
-cp /home/pi/piSignagePro/eRS232/TVoff.py /home/pi/TVoff.py
+cp /home/pi/piSignagePro/rs232/TVon.py /home/pi/TVon.py
+cp /home/pi/piSignagePro/rs232/TVoff.py /home/pi/TVoff.py
 echo "Dosyalar kopyalandi..."
 echo "crontab ekleniyor..."
 touch mycron
