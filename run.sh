@@ -13,4 +13,4 @@ crontab mycron
 rm mycron
 sudo rm /etc/wpa_supplicant/wpa_supplicant.conf
 sudo cp /home/pi/piSignagePro/rs232/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
-echo "Islem Tamamlandi."
+echo "********Islem Tamamlandi.**********"
